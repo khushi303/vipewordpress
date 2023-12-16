@@ -7,28 +7,24 @@ const Footer = () => {
         <div className='bg-black mt-40'>
             <div className=''>
                 <div className='container xl:max-w-[1320px] mx-auto px-3 translate-y-[-132px]'>
-                    <div className='rounded-[17px] bg-gradient-to-r flex flex-row flex-wrap pt-6 pl-10 pb-10 pr-12 from-[#5F21E9] via-[#5F21E9] to-[#FA00FF]'>
+                    <div className='rounded-[17px] bg-gradient-to-r flex flex-row flex-wrap sm:pt-6 sm:pl-10 sm:pb-10 sm:pr-12 p-5 from-[#5F21E9] via-[#5F21E9] to-[#FA00FF]'>
                         <div data-aos="fade-right" className='md:w-3/6 w-full'>
-                            <h3 className='ff-konexy text-[48px] font-normal leading-none md:text-start text-center text-white'>Have you</h3>
-                            <p className='ff-gilroy mt-2 text-[24px] font-semibold leading-[130%] md:text-start text-center text-white mt-2 max-w-[638px]'>read our study about Speed and Performance in WordPress?</p>
+                            <h3 className='ff-konexy text-[48px] font-normal leading-none text-white'>Have you</h3>
+                            <p className='ff-gilroy mt-2 text-[24px] font-semibold leading-[130%] text-white max-w-[638px]'>read our study about Speed and Performance in WordPress?</p>
                         </div>
-                        <div data-aos="zoom-in" className='md:w-3/6 w-full flex items-center justify-center md:mt-0 mt-7 md:justify-end'>
+                        <div data-aos="zoom-in" className='md:w-3/6 w-full mt-6 flex items-center lg:justify-end justify-center'>
                             <button className='ff_inter text-[16px] font-semibold leading-[150%] text-[#6022EA] hover:shadow-[0_0_20px_2px_#fff] transition-shadow duration-300 ease-linear py-[14.326px] px-[38.202px] rounded-[137.287px] bg-white'>Check It Out</button>
                         </div>
                     </div>
                 </div>
-                <div className='container xl:max-w-[1320px] mx-auto px-3 mt-4'>
-                    <div className='flex flex-row flex-wrap sm:justify-between items-center justify-center'>
-                        <div data-aos="fade-right" className='sm:w-3/6 w-full flex items-center'>
-                            <div className='max-w-[176px]'>
-                                <img src={Footerlogo} alt="Footerlogo" className='w-full' />
-                            </div>
+                <div className='container xl:max-w-[1320px] mx-auto px-3 mt-[-15px]'>
+                    <div className='flex md:flex-row flex-col flex-wrap justify-between'>
+                        <div data-aos="fade-right" className='max-w-[176px]'>
+                            <img src={Footerlogo} alt="Footerlogo" className='w-full' />
                         </div>
-                        <div data-aos="fade-left" className='sm:w-3/6 w-full flex items-center justify-end'>
-                            <div className='px-5 py-2 max-w-[381px] w-full rounded-[80px] sm:mt-0 mt-10 bg-white flex items-center'>
-                                <input type="text" placeholder='Search here....' className='bg-white w-full outline-none border-[0] placeholder:ff-gilroy placeholder:text-[16px] placeholder:font-normal ff-gilroy text-[16px] font-normal' />
-                                <Searchsvg />
-                            </div>
+                        <div data-aos="fade-left" className='px-5 py-2 max-w-[381px] w-full rounded-[80px] md:mt-0 mt-6 bg-white flex items-center'>
+                            <input type="text" placeholder='Search here....' className='bg-white w-full outline-none border-[0] placeholder:ff-gilroy placeholder:text-[16px] placeholder:font-normal ff-gilroy text-[16px] font-normal' />
+                            <Searchsvg />
                         </div>
                     </div>
                     <div className='flex flex-row flex-wrap justify-center lg:mt-14 mt-10'>
@@ -80,7 +76,7 @@ const Footer = () => {
 
                             </ul>
                         </div>
-                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex md:mt-0 mt-8'>
+                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex md:mt-0 mt-6'>
                             <ul>
                                 <li className='ff-gilroy text-[16px] font-normal leading-[150%] text-white mb-4'>Services</li>
                                 <li className='flex items-center gap-1 mb-2 group'>
@@ -121,7 +117,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex lg:pr-0 pr-6 lg:justify-center lg:mt-0 mt-8'>
+                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex lg:pr-0 pr-6 lg:justify-center lg:mt-0 mt-6'>
                             <ul>
                                 <li className='ff-gilroy text-[16px] font-normal leading-[150%] text-white mb-4 hover:text-[#6022EA] transition-colors duration-300 ease-linear'>Services</li>
                                 <li className='ff-gilroy text-[14px] font-normal text-white mb-5 hover:text-[#6022EA] transition-colors duration-300 ease-linear'>7 WordPress Plugins to Create an Effective Newsletter 03.01.2022</li>
@@ -131,7 +127,7 @@ const Footer = () => {
                                 <li className='ff-gilroy text-[14px] font-normal text-white mb-5 hover:text-[#6022EA] transition-colors duration-300 ease-linear'>Viptor Says: Vipe Studio’s WordPress Developers Wrap Up the Amazingly Successful 2021 30.12.2021</li>
                             </ul>
                         </div>
-                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-8'>
+                        <div data-aos="fade-down" className='lg:w-3/12 md:w-6/12 w-full flex lg:justify-end lg:mt-0 mt-6'>
                             <ul>
                                 <li className='ff-gilroy text-[16px] font-normal leading-[150%] text-white mb-4'>Contact</li>
                                 <li className='flex items-center ff-gilroy hover:text-[#6022EA] transition-colors duration-300 ease-linear text-[14px] font-normal text-white mb-5 gap-2'>
@@ -167,7 +163,7 @@ const Footer = () => {
                                 <p className='ff-gilroy text-[14px] font-normal text-white'>Client Area</p>
                             </div>
                         </div>
-                        <div className='md:w-3/6 w-full flex justify-end items-center'>
+                        <div className='md:w-3/6 w-full flex md:justify-end justify-start items-center md:mt-0 mt-6'>
                             <div className='flex flex-row flex-wrap gap-4'>
                                 <Github />
                                 <Linkdin />

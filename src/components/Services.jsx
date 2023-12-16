@@ -8,9 +8,9 @@ const Services = () => {
             <div className='container xl:max-w-[1320px] mx-auto px-3'>
                 <div className='flex flex-row flex-wrap justify-center w-full mt-6'>
                     <div className='lg:w-2/6 w-full'>
-                        <h3 data-aos="fade-right" className=' ff-konexy text-[40px] font-normal text-white lg:text-start text-center'>All Vipe Studio WordPress services	include:</h3>
+                        <h3 data-aos="fade-right" className=' ff-konexy text-[40px] font-normal text-white'>All Vipe Studio WordPress services	include:</h3>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="1500" className='lg:w-2/6 sm:w-3/6 w-full flex items-center sm:justify-center justify-start lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" data-aos-duration="1500" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Industry</p>
                             <div className='flex gap-2 items-center mt-5'>
@@ -39,7 +39,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="2000" className='lg:w-2/6 sm:w-3/6 w-full flex items-center sm:justify-center justify-start lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" data-aos-duration="2000" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Services</p>
                             <div className='flex gap-2 items-center mt-5'>
@@ -70,14 +70,12 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='relative'>
-                    <div className='relative z-[4] flex flex-row flex-wrap justify-center w-full lg:mt-24 mt-10 rounded-[25.938px] bg-black lg:py-7 lg:px-8 p-4'>
+                    <div className='relative z-[4] flex flex-row flex-wrap justify-center w-full lg:mt-24 mt-10 rounded-[25.938px] bg-black sm:py-7 sm:px-8 p-4'>
                         <div data-aos="fade-right" className='lg:w-2/6 md:w-3/6 w-full'>
-                            <div className='flex lg:justify-start justify-center flex-col md:items-start items-center gap-10'>
-                                <h3 className=' ff-konexy text-[35px] font-normal text-white leading-none md:text-start text-center md:max-w-[334px]'>Not Sure which service you need yet?</h3>
-                                <button className=' py-2 px-6 bg-[#6022EA] ff-gilroy text-[16px] font-semibold leading-[150%] border-0 rounded-[80px] text-white text-center hover:shadow-[0_0_20px_2px_#6022EA] transition-shadow duration-300 ease-linear'>Schedule An Appointment</button>
-                            </div>
+                            <h3 className=' ff-konexy text-[35px] font-normal text-white leading-none md:max-w-[334px]'>Not Sure which service you need yet?</h3>
+                            <button className=' py-2 px-6 bg-[#6022EA] ff-gilroy text-[16px] font-semibold leading-[150%] border-0 rounded-[80px] text-white text-center hover:shadow-[0_0_20px_2px_#6022EA] transition-shadow duration-300 ease-linear mt-7'>Schedule An Appointment</button>
                         </div>
-                        <div data-aos="fade-left" className='lg:w-2/6 md:w-3/6 w-full flex md:justify-center justify-center items-start md:mt-0 mt-9'>
+                        <div data-aos="fade-left" className='lg:w-2/6 md:w-3/6 w-full md:mt-0 mt-9'>
                             <div>
                                 <h3 className=' ff-gilroy text-[24px] font-bold leading-[130%] text-white mb-6 max-w-[386px]'>20-m free consultation that will help us identifyif  you need</h3>
                                 <div className='flex gap-2 items-center mt-5'>

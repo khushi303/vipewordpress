@@ -101,7 +101,7 @@ export const Bluetick = () => {
 export const Singletick = () => {
     return (
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3.33398 10L8.33398 15L16.6673 5" stroke="#6022EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M3.33398 10L8.33398 15L16.6673 5" stroke="#6022EA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
     )
 }
@@ -109,7 +109,7 @@ export const Singletick = () => {
 export const Searchsvg = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-            <path opacity="0.7" d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z" stroke="#313131" stroke-width="2.5" stroke-linecap="round" />
+            <path opacity="0.7" d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z" stroke="#313131" strokeWidth="2.5" strokeLinecap="round" />
         </svg>
     )
 }
@@ -136,7 +136,7 @@ export const Github = () => {
         <svg className="group cursor-pointer" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.7" className="group-hover:opacity-100 transition-opacity duration-300 ease-linear">
                 <circle cx="20" cy="20.9219" r="20" fill="white" />
-                <g clip-path="url(#clip0_10862_190)">
+                <g clipPath="url(#clip0_10862_190)">
                     <path d="M16.4223 29.003C16.4223 29.899 16.4323 30.756 16.4383 31.288C16.4395 31.4166 16.4807 31.5417 16.5564 31.6457C16.6321 31.7496 16.7383 31.8274 16.8603 31.868C18.9383 32.554 21.1773 32.586 23.2743 31.959L23.5663 31.872C23.7038 31.8309 23.8245 31.7467 23.9105 31.6319C23.9966 31.517 24.0435 31.3776 24.0443 31.234C24.0493 30.501 24.0613 29.217 24.0613 27.704C24.0613 26.332 23.5843 25.454 23.0303 24.997C26.4293 24.631 30.0003 23.387 30.0003 17.77C30.0003 16.16 29.4083 14.86 28.4343 13.836C28.5873 13.47 29.1223 11.97 28.2813 9.95804C28.2813 9.95804 27.0013 9.55504 24.0803 11.458C22.834 11.1272 21.5498 10.9611 20.2603 10.964C18.9623 10.964 17.6633 11.129 16.4413 11.458C13.5203 9.57204 12.2403 9.95804 12.2403 9.95804C11.4003 11.97 11.9343 13.47 12.0873 13.836C11.0674 14.8898 10.5046 16.3036 10.5213 17.77C10.5213 23.368 14.0733 24.63 17.4723 24.997C17.0333 25.363 16.6323 26.003 16.4993 26.954C15.6203 27.338 13.4243 27.96 12.0493 25.747C11.7633 25.307 10.9033 24.228 9.70033 24.247C8.42033 24.265 9.18433 24.942 9.72033 25.217C10.3683 25.564 11.1133 26.863 11.2853 27.284C11.5913 28.107 12.5843 29.68 16.4223 29.004V29.003Z" fill="black" />
                 </g>
             </g>
@@ -154,8 +154,8 @@ export const Linkdin = () => {
         <svg className="group cursor-pointer" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.7" className="group-hover:opacity-100 transition-opacity duration-300 ease-linear">
                 <circle cx="20" cy="20.9219" r="20" fill="white" />
-                <path d="M12.5 14.9219C13.6046 14.9219 14.5 14.0264 14.5 12.9219C14.5 11.8173 13.6046 10.9219 12.5 10.9219C11.3954 10.9219 10.5 11.8173 10.5 12.9219C10.5 14.0264 11.3954 14.9219 12.5 14.9219Z" fill="black" stroke="black" stroke-width="0.0833333" />
-                <path d="M10.5 17.9219H14.5V30.4219H10.5V17.9219ZM18.5 22.6719V30.4219H22V23.4219C22 22.1719 22.75 21.1719 24 21.1719C25.25 21.1719 26 22.4219 26 23.4219V30.4219H29.5V22.6719C29.5 21.1719 27.75 17.9219 24 17.9219C20.25 17.9219 18.5 21.1719 18.5 22.6719Z" fill="black" stroke="black" stroke-width="0.0833333" stroke-linejoin="round" />
+                <path d="M12.5 14.9219C13.6046 14.9219 14.5 14.0264 14.5 12.9219C14.5 11.8173 13.6046 10.9219 12.5 10.9219C11.3954 10.9219 10.5 11.8173 10.5 12.9219C10.5 14.0264 11.3954 14.9219 12.5 14.9219Z" fill="black" stroke="black" strokeWidth="0.0833333" />
+                <path d="M10.5 17.9219H14.5V30.4219H10.5V17.9219ZM18.5 22.6719V30.4219H22V23.4219C22 22.1719 22.75 21.1719 24 21.1719C25.25 21.1719 26 22.4219 26 23.4219V30.4219H29.5V22.6719C29.5 21.1719 27.75 17.9219 24 17.9219C20.25 17.9219 18.5 21.1719 18.5 22.6719Z" fill="black" stroke="black" strokeWidth="0.0833333" strokeLinejoin="round" />
             </g>
         </svg>
 
@@ -179,7 +179,7 @@ export const Facebook = () => {
         <svg className="group cursor-pointer" width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.7" className="group-hover:opacity-100 transition-opacity duration-300 ease-linear">
                 <circle cx="20" cy="20.9219" r="20" fill="white" />
-                <g clip-path="url(#clip0_10862_196)">
+                <g clipPath="url(#clip0_10862_196)">
                     <path d="M17.7701 31.9015V21.588H15.043V17.8747H17.7701V14.703C17.7701 12.2107 19.381 9.92188 23.0928 9.92188C24.5957 9.92188 25.707 10.066 25.707 10.066L25.6195 13.5336C25.6195 13.5336 24.4861 13.5225 23.2493 13.5225C21.9108 13.5225 21.6963 14.1394 21.6963 15.1632V17.8747H25.7259L25.5505 21.588H21.6963V31.9015H17.7701Z" fill="black" />
                 </g>
             </g>
@@ -216,5 +216,5 @@ export const Wikipedia = () => {
 
 export const Loader = () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="#fff" stroke="#fff" stroke-width="15" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin="0"></animate></circle><circle fill="#6022EA" stroke="#6022EA" stroke-width="15" opacity=".8" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin="0.05"></animate></circle><circle fill="#fff" stroke="#fff" stroke-width="15" opacity=".6" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".1"></animate></circle><circle fill="#fff" stroke="#fff" stroke-width="15" opacity=".4" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".15"></animate></circle><circle fill="#fff" stroke="#fff" stroke-width="15" opacity=".2" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".2"></animate></circle></svg>)
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="#fff" stroke="#fff" strokeWidth="15" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin="0"></animate></circle><circle fill="#6022EA" stroke="#6022EA" strokeWidth="15" opacity=".8" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin="0.05"></animate></circle><circle fill="#fff" stroke="#fff" strokeWidth="15" opacity=".6" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".1"></animate></circle><circle fill="#fff" stroke="#fff" strokeWidth="15" opacity=".4" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".15"></animate></circle><circle fill="#fff" stroke="#fff" strokeWidth="15" opacity=".2" r="15" cx="35" cy="100"><animate attributeName="cx" calcMode="spline" dur="2" values="35;165;165;35;35" keySplines="0 .1 .5 1;0 .1 .5 1;0 .1 .5 1;0 .1 .5 1" repeatCount="indefinite" begin=".2"></animate></circle></svg>)
 }

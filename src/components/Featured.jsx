@@ -45,7 +45,7 @@ const Featured = () => {
     return (
         <div className='bg-[#F6F6F6] lg:py-24 py-11'>
             <div className='container mx-auto lg:max-w-[1320px] px-4'>
-                <h3 data-aos="fade-right" className='ff-konexy text-[48px] font-normal text-black lg:text-start text-center'>Featured on</h3>
+                <h3 data-aos="fade-right" className='ff-konexy text-[48px] font-normal text-black'>Featured on</h3>
                 <div className=' mt-14'>
                     <Slider {...settings} className='flex items-center justify-center'>
                         <div className='xl:px-5 px-3'>
