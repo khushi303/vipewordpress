@@ -12,9 +12,7 @@ const Header = () => {
     <div className='bg-black'>
       <div className='container lg:max-w-[1320px] mx-auto flex items-center justify-between px-4'>
         <div className='flex items-center gap-10 py-5'>
-          <div className='max-w-[175px]'>
-            <img src={Logo} alt="Logo" className='w-full' />
-          </div>
+          <img src={Logo} alt="Logo" className='max-w-[175px] w-full' />
           <ul className={`${show ? 'flex xl:flex-row items-center flex-col justify-center gap-4 max-xl:min-h-screen transition-all duration-300 ease-linear max-xl:fixed top-0 bottom-0 max-xl:h-full left-[-100%] max-xl:w-full z-[5] max-xl:bg-black' : 'flex transition-all duration-300 ease-linear flex-row max-xl:flex-col items-center gap-7 justify-center max-xl:min-h-screen max-xl:fixed top-0 bottom-0 max-xl:h-full left-0 max-xl:w-full z-[5] max-xl:bg-black'}`}>
             <div className="relative group cursor-pointer">
               <li className='flex items-center text-white ff-gilroy text-[16px] font-normal'>WordPress Solution <Droparrow /></li>
