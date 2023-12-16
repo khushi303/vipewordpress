@@ -46,7 +46,7 @@ const TermPartner = () => {
     return (
         <div className='bg-[#F6F6F6] lg:py-24 py-12'>
             <div className='container mx-auto lg:max-w-[1320px] px-4'>
-                <h3 data-aos="fade-right" className='ff-konexy md:text-[48px] text-[32px] font-normal text-black lg:max-w-[631px]'>Long Term WordPress Partner</h3>
+                <h3 data-aos="fade-right" className='ff-konexy md:text-[48px] text-[28px] font-normal text-black lg:max-w-[631px]'>Long Term WordPress Partner</h3>
                 <p data-aos="fade-right" className='ff-gilroy text-[16px] font-normal text-black max-w-[693px] opacity-80 leading-[150%]'>Our motto is the long-term partnership – we will not only develop your perfect website, but will be behind you through the whole process. They already trusted us:</p>
                 <div className='mt-14'>
                     <Slider {...settings} className='flex items-center justify-center'>

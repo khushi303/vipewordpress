@@ -5,12 +5,12 @@ import Smilingwomenimg from '../assets/images/png/Smilingwomen.png';
 const Services = () => {
     return (
         <div className='bg-black lg:py-20 py-10'>
-            <div className='container xl:max-w-[1320px] mx-auto px-3'>
+            <div className='container xl:max-w-[1320px] mx-auto px-2'>
                 <div className='flex flex-row flex-wrap justify-center w-full mt-6'>
                     <div className='lg:w-2/6 w-full'>
-                        <h3 data-aos="fade-right" className=' ff-konexy text-[40px] font-normal text-white'>All Vipe Studio WordPress services	include:</h3>
+                        <h3 data-aos="fade-right" className=' ff-konexy sm:text-[40px] text-[25px] font-normal text-white'>All Vipe Studio WordPress services	include:</h3>
                     </div>
-                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9 flex lg:justify-center'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Industry</p>
                             <div className='flex gap-2 items-center mt-5'>
@@ -39,7 +39,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9 flex sm:justify-end'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Services</p>
                             <div className='flex gap-2 items-center mt-5'>

@@ -14,7 +14,7 @@ const SuccessGuide = () => {
                     </div>
                     <div className='lg:w-8/12 w-full lg:mt-0 mt-7'>
                         <p data-aos="fade-left" className='ff-gilroy text-[16px] font-normal text-black'>HAVE YOU SEEN OUR MASCOT?</p>
-                        <h2 data-aos="fade-left" className='ff-konexy sm:text-[48px] text-[32px] font-normal text-black'>Success Guides</h2>
+                        <h2 data-aos="fade-left" className='ff-konexy sm:text-[48px] text-[28px] font-normal text-black'>Success Guides</h2>
                         <div data-aos="zoom-in" className='flex flex-wrap flex-row gap-3 mt-5'>
                             <button className=' ff-gilroy text-[16px] font-semibold hover:text-white text-[#6022EA] leading-[150%] py-2 px-4 rounded-[80px] bg-transparent border border-solid border-[#6022EA] transition-colors duration-300 ease-linear hover:bg-[#6022EA]'>Category-1</button>
                             <button className=' ff-gilroy text-[16px] font-semibold hover:text-white text-[#6022EA] leading-[150%] py-2 px-4 rounded-[80px] bg-transparent border border-solid border-[#6022EA] transition-colors duration-300 ease-linear hover:bg-[#6022EA]'>Category-2</button>

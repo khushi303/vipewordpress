@@ -8,7 +8,7 @@ const FullStars = () => {
                 <div className='flex flex-row flex-wrap'>
                     <div data-aos="fade-right" className='lg:w-1/2 w-full flex items-center'>
                         <div className=' lg:pb-10'>
-                            <h3 className='ff-konexy text-[48px] font-normal text-black'>Team Full of Stars</h3>
+                            <h3 className='ff-konexy sm:text-[48px] text-[28px] font-normal text-black'>Team Full of Stars</h3>
                             <p className='ff-gilroy text-[16px] font-normal text-black max-w-[476px] mb-7'>Suspendisse consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla in nibh fringilla vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor sollicitudin risus eget euismod in bibendum turpis. </p>
                             <button className='hover:shadow-[0_0_20px_2px_#6022EA] transition-shadow duration-300 ease-linear ff-gilroy text-[16px] font-semibold leading-[150%] py-2 px-6 text-white rounded-[80px] bg-[#6022EA]'>Explore</button>
                         </div>

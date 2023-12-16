@@ -5,7 +5,7 @@ const Integer = () => {
     return (
         <div>
             <div className='container xl:max-w-[1320px] px-3 mx-auto pt-14 pb-20'>
-                <h3 data-aos="fade-right" className='ff-konexy text-[48px] font-normal text-black'>Integer et nisl non</h3>
+                <h3 data-aos="fade-right" className='ff-konexy sm:text-[48px] text-[28px] font-normal text-black'>Integer et nisl non</h3>
                 <div className='flex flex-row flex-wrap justify-center items-center w-full mt-10'>
                     <div data-aos="fade-right" className='lg:w-2/6 sm:w-3/6 w-full px-3'>
                         <div className='md:pt-14 md:pb-9 md:px-9 p-6 flex items-center justify-center flex-col rounded-[16px] border border-solid border-[#00000013] hover:border-[#fff] transition-shadow hover:shadow-[0px_20px_60px_0px_#E5E9F6]'>

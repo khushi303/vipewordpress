@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='container xl:max-w-[1320px] mx-auto px-3 translate-y-[-132px]'>
                     <div className='rounded-[17px] bg-gradient-to-r flex flex-row flex-wrap sm:pt-6 sm:pl-10 sm:pb-10 sm:pr-12 p-5 from-[#5F21E9] via-[#5F21E9] to-[#FA00FF]'>
                         <div data-aos="fade-right" className='md:w-3/6 w-full'>
-                            <h3 className='ff-konexy text-[48px] font-normal leading-none text-white'>Have you</h3>
+                            <h3 className='ff-konexy sm:text-[48px] text-[32px] font-normal leading-none text-white'>Have you</h3>
                             <p className='ff-gilroy mt-2 text-[24px] font-semibold leading-[130%] text-white max-w-[638px]'>read our study about Speed and Performance in WordPress?</p>
                         </div>
                         <div data-aos="zoom-in" className='md:w-3/6 w-full mt-6 flex items-center lg:justify-end justify-center'>
