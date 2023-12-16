@@ -8,9 +8,15 @@ import Truststar from '../assets/images/png/truststar.png';
 
 const Header = () => {
   const [show, setshow] = useState(true)
+  if (show === false) {
+    document.body.classList.add("max-lg:overflow-hidden")
+
+  } else {
+    document.body.classList.remove("max-lg:overflow-hidden")
+  }
   return (
     <div className='bg-black'>
-      <div className='container lg:max-w-[1320px] mx-auto flex items-center justify-between px-4 lg:mb-0 mb-8'>
+      <div className='container lg:max-w-[1320px] mx-auto flex items-center justify-between px-4'>
         <div className='flex items-center gap-10 py-5'>
           <img src={Logo} alt="Logo" className='sm:max-w-[175px] max-w-[120px] w-full' />
           <ul className={`${show ? 'flex xl:flex-row items-center flex-col justify-center gap-4 max-xl:min-h-screen transition-all duration-300 ease-linear max-xl:fixed top-0 bottom-0 max-xl:h-full left-[-100%] max-xl:w-full z-[5] max-xl:bg-black' : 'flex transition-all duration-300 ease-linear flex-row max-xl:flex-col items-center gap-7 justify-center max-xl:min-h-screen max-xl:fixed top-0 bottom-0 max-xl:h-full left-0 max-xl:w-full z-[5] max-xl:bg-black'}`}>
@@ -63,7 +69,7 @@ const Header = () => {
           <span className={`${show ? 'bg-white h-[4px] w-full duration-300 ease-linear transition-all' : "bg-white transition-all duration-300 ease-linear h-[4px] w-full rotate-[-50deg] translate-y-[-50%]"}`}></span>
         </div>
       </div>
-      <div className='container lg:max-w-[1320px] mx-auto px-4 xl:px-4 xl::mt-24 mt-11'>
+      <div className='container lg:max-w-[1320px] mx-auto px-4 xl:px-4 xl::mt-24 mt-11 lg:mb-24 mb-14'>
         <div className='flex flex-row flex-wrap justify-center'>
           <div data-aos="fade-right" className='xl:w-1/2 w-full pr-4'>
             <h2 className='ff-konexy max-xl:text-[70px] max-sm:text-[35px] xl:text-[50px] 2xl:text-[72px] font-normal text-white leading-[106%] relative before:absolute before:w-0 lg:before:w-[5px] before:top-0 before:bottom-0 before:left-[-8px] xl:before:left-[-15px] before:bg-[#6022EA] xl:max-w-[646px]'>WordPress Development Agency</h2>
@@ -95,7 +101,7 @@ const Header = () => {
       </div>
       <div className='bg-[#ffffff1a] mt-12 pb-11'>
         <div className='container xl:max-w-[1320px] mx-auto px-3'>
-          <div className='flex flex-row flex-wrap lg:pt-20 pt-14'>
+          <div className='flex flex-row flex-wrap lg:pt-14 pt-10'>
             <div data-aos="fade-down" className='lg:w-1/2 lg:pr-4 w-full'>
               <h3 className='ff-konexy text-[36px] font-normal text-white'>Tell us more....</h3>
               <p className='max-w-[573px] ff-gilroy text-[16px] font-normal text-white mt-4'>Lectus vitae est ultrices sed. Sit aliquam commodo hac donec augue in quis. Magna vel orci sem neque fringilla et lectus laoreet.</p>
