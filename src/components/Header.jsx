@@ -83,12 +83,14 @@ const Header = () => {
           </div>
           <div data-aos="fade-left" className='xl:w-1/2 w-full xl:mt-0 mt-9 flex xl:justify-end justify-center lg:items-end items-center'>
             <div className='2xl:h-[500px] rounded-[20px] 2xl:translate-x-[80px] max-w-[761px] relative'>
-              <img src={Groupimg} alt="Groupimg" className='h-full w-full rounded-[20px]' />
-              <div className='rounded-[15px] cursor-pointer max-w-[228px] w-full bg-[#00000051] backdrop-blur  absolute bottom-[4%] left-[4%]  pt-2 pl-[18px] pb-3'>
+              <img src={Groupimg} alt="Groupimg" className='h-full w-full rounded-[20px] relative z-[5]' />
+              <div className='z-[5] rounded-[15px] cursor-pointer max-w-[228px] w-full bg-[#00000051] backdrop-blur  absolute bottom-[4%] left-[4%]  pt-2 pl-[18px] pb-3'>
                 <img src={Trustimg} alt="Trustimg" className='max-w-[107.518px] w-full' />
                 <img src={Truststar} alt="Truststar" className='max-w-[179.597px] w-full mt-2' />
                 <p className='mt-2 ff-jost text-[16px] font-normal text-white leading-[150%]'>Rated 5.0 Excellent</p>
               </div>
+              <div className="w-[187.13px] h-[187.13px] bg-gradient-to-b to-[#6022EA] from-[#FA00FF] absolute rounded-full blur-[100px] right-[-10%] top-[-9%]" />
+              <div className="w-[187.13px] h-[187.13px] bg-gradient-to-b to-[#6022EA] from-[#FA00FF] absolute rounded-full blur-[100px] left-[-10%] bottom-[-9%]"></div>
             </div>
           </div>
         </div>
