@@ -14,7 +14,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import { useEffect, useState } from 'react';
-import PreLoader from './components/PreLoader';
+import Loader from './components/iconsvg';
 
 function App() {
   // ----------back-to-top----------
@@ -36,7 +36,7 @@ function App() {
     AOS.init(
       {
         once: true,
-        duration: 2300
+        duration: 1500
       }
     );
     Aos.refresh()
@@ -48,13 +48,13 @@ function App() {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 3900);
+    }, 3000);
   }, []);
   return (
 
     <div className='overflow-x-hidden'>
       {screenLoading ? (
-        <PreLoader />
+        <Loader />
       ) : (
         <div className=''>
           <Header />

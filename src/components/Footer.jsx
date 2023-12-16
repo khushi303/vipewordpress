@@ -1,6 +1,7 @@
 import React from 'react';
 import Footerlogo from '../assets/images/png/footerlogo.png';
-import { Searchsvg, RightArrows, Telephone, Github, Linkdin, Tweeter, Facebook, Instagrm, Wikipedia } from '../components/iconsvg';
+import { Searchsvg, RightArrows, Telephone, Github, Linkdin } from './iconsvg';
+import { Tweeter, Facebook, Instagrm, Wikipedia } from './iconsvg';
 
 const Footer = () => {
     return (
