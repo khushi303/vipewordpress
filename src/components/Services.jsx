@@ -10,7 +10,7 @@ const Services = () => {
                     <div className='lg:w-2/6 w-full'>
                         <h3 data-aos="fade-right" className=' ff-konexy text-[40px] font-normal text-white'>All Vipe Studio WordPress services	include:</h3>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="1500" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Industry</p>
                             <div className='flex gap-2 items-center mt-5'>
@@ -39,7 +39,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="2000" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
+                    <div data-aos="fade-left" className='lg:w-2/6 sm:w-3/6 w-full lg:mt-0 mt-9'>
                         <div>
                             <p className=' ff-gilroy text-[24px] font-semibold text-white leading-[130%]'>By Services</p>
                             <div className='flex gap-2 items-center mt-5'>
