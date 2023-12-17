@@ -69,7 +69,7 @@ const Header = () => {
           <span className={`${show ? 'bg-white h-[4px] w-full duration-300 ease-linear transition-all' : "bg-white transition-all duration-300 ease-linear h-[4px] w-full rotate-[-50deg] translate-y-[-50%]"}`}></span>
         </div>
       </div>
-      <div className='container lg:max-w-[1320px] mx-auto px-4 xl:px-4 xl::mt-24 mt-11 lg:mb-24 mb-14'>
+      <div className='container lg:max-w-[1320px] mx-auto px-4 xl:px-4 xl::mt-24 mt-11 lg:mb-32 mb-16'>
         <div className='flex flex-row flex-wrap justify-center'>
           <div data-aos="fade-right" className='xl:w-1/2 w-full pr-4'>
             <h2 className='ff-konexy max-xl:text-[70px] max-sm:text-[35px] xl:text-[50px] 2xl:text-[72px] font-normal text-white leading-[106%] relative before:absolute before:w-0 lg:before:w-[5px] before:top-0 before:bottom-0 before:left-[-8px] xl:before:left-[-15px] before:bg-[#6022EA] xl:max-w-[646px]'>WordPress Development Agency</h2>
@@ -77,8 +77,8 @@ const Header = () => {
             <div className='flex xl:justify-start justify-center'>
               <p className='ff-gilroy xl:max-w-[592px] text-[16px] font-normal text-white leading-[150%] mt-5 opacity-[0.7]'>Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best.</p>
             </div>
-            <div className='flex sm:gap-16 gap-3 sm:flex-row flex-col items-start mt-7'>
-              <button className='bg-[#6022EA] whitespace-nowrap rounded-[80px] py-3 sm:px-10 px-7 ff-gilroy text-[16px] font-normal text-white leading-[150%] hover:shadow-[0_0_20px_2px_#6022EA] transition-shadow duration-300 ease-linear'>Get Started</button>
+            <div className='inline-flex sm:gap-16 gap-3 sm:flex-row flex-col sm:items-center justify-start mt-7'>
+              <button className='bg-[#6022EA] whitespace-nowrap  rounded-[80px] py-3 sm:px-10 px-7 ff-gilroy text-[16px] font-normal text-white leading-[150%] hover:shadow-[0_0_20px_2px_#6022EA] transition-shadow duration-300 ease-linear'>Get Started</button>
               <a href="#" className='flex items-center gap-2 sm:mt-0 mt-3'>
                 <Playbtn />
                 <p className='ff-gilroy whitespace-nowrap text-[16px] font-normal text-white leading-[150%] opacity-[0.7]'>What is Vipe? (1min)</p>

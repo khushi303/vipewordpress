@@ -24,7 +24,7 @@ const Footer = () => {
                             <img src={Footerlogo} alt="Footerlogo" className='w-full' />
                         </div>
                         <div data-aos="fade-left" className='px-5 py-2 max-w-[381px] w-full rounded-[80px] md:mt-0 mt-6 bg-white flex items-center'>
-                            <input type="text" placeholder='Search here....' className='bg-white w-full outline-none border-[0] placeholder:ff-gilroy placeholder:text-[16px] placeholder:font-normal ff-gilroy text-[16px] font-normal' />
+                            <input type="text" placeholder='Search here....' className='bg-white w-full outline-none border-[0] placeholder:ff-gilroy placeholder:text-[16px] placeholder:font-normal ff-gilroy opacity-70 text-[16px] font-normal' />
                             <Searchsvg />
                         </div>
                     </div>
