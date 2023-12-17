@@ -88,9 +88,9 @@ const Header = () => {
           <div data-aos="fade-left" className='xl:w-1/2 w-full xl:mt-0 mt-9 flex justify-center items-center'>
             <div className='rounded-[20px] relative 2xl:translate-x-[45px]'>
               <img src={Groupimg} alt="Groupimg" className='w-full rounded-[20px]  relative z-[5]' />
-              <div className='z-[5] rounded-[15px] cursor-pointer max-w-[228px] w-full bg-[#00000051] backdrop-blur  absolute bottom-[4%] left-[4%]  pt-2 pl-[18px] pb-3'>
+              <div className='z-[5] rounded-[15px] cursor-pointer am:max-w-[228px] max-w-[190px] w-full bg-[#00000051] backdrop-blur  absolute bottom-[4%] left-[4%]  pt-2 pl-[18px] pb-3'>
                 <img src={Trustimg} alt="Trustimg" className='max-w-[107.518px] w-full' />
-                <img src={Truststar} alt="Truststar" className='max-w-[179.597px] w-full mt-2' />
+                <img src={Truststar} alt="Truststar" className='sm:max-w-[179.597px] max-w-[100px] w-full mt-2' />
                 <p className='mt-2 ff-jost text-[16px] font-normal text-white leading-[150%]'>Rated 5.0 Excellent</p>
               </div>
               <div className="w-[187.13px] h-[187.13px] bg-gradient-to-b to-[#6022EA] from-[#FA00FF] absolute rounded-full blur-[100px] right-[-10%] top-[-9%]" />
