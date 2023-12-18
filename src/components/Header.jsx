@@ -18,7 +18,7 @@ const Header = () => {
     <div className='bg-black'>
       <div className='container lg:max-w-[1320px] mx-auto flex items-center justify-between px-4'>
         <div className='flex items-center gap-10 py-5'>
-          <img src={Logo} alt="Logo" className='sm:max-w-[175px] max-w-[120px] w-full' />
+          <img src={Logo} alt="Logo" className='sm:max-w-[175px] max-w-[120px] w-full cursor-pointer' />
           <ul className={`${show ? 'flex xl:flex-row items-center flex-col justify-center gap-4 max-xl:min-h-screen transition-all duration-300 ease-linear max-xl:fixed top-0 bottom-0 max-xl:h-full left-[-100%] max-xl:w-full z-[5] max-xl:bg-black' : 'flex transition-all duration-300 ease-linear flex-row max-xl:flex-col items-center gap-7 justify-center max-xl:min-h-screen max-xl:fixed top-0 bottom-0 max-xl:h-full left-0 max-xl:w-full z-[5] max-xl:bg-black'}`}>
             <div className="relative group cursor-pointer">
               <li className='flex items-center text-white ff-gilroy text-[16px] font-normal'>WordPress Solution <Droparrow /></li>
@@ -112,7 +112,7 @@ const Header = () => {
                 <Searchicon />
               </div>
               <div className='max-w-[537px] w-full flex justify-between items-start mt-4'>
-                <p className='flex gap-2 ff-gilroy text-[16px] font-normal text-white items-center leading-[150%]'><Roundsvg /> or send us an inquire?</p>
+                <p className='flex gap-2 ff-gilroy text-[16px] font-normal text-white items-center leading-[150%] cursor-pointer'><Roundsvg /> or send us an inquire?</p>
                 <a href="" className=' ff-gilroy text-[16px] font-normal text-white leading-[150%]'>Learn more about...</a>
               </div>
             </div>

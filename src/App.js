@@ -66,7 +66,7 @@ function App() {
           <FullStars />
           <SuccessGuide />
           <Footer />
-          <div className='fixed bottom-4 right-4 z-[6]'>
+          <div className='fixed bottom-4 right-4 z-[6] cursor-pointer'>
             <div className={backToTop ? 'w-[60px] h-[60px] rounded-[60px] bg-[#6022EA]' : 'hidden'} onClick={() => top()}>
               <img src={Backtotop} alt="Backtotop" className=' w-full' />
             </div>
